@@ -3,7 +3,7 @@
 #include <espnow.h>
 
 int help;
-uint8_t broadcastAddress[] = {0xE8, 0xDB, 0x84, 0xA8, 0xC5, 0x63};
+uint8_t broadcastAddress[] = {0xE8, 0xDB, 0x84, 0xA8, 0xC5, 0x63}; // Write Recevier Mac address
 
 typedef struct struct_message {
 int help;
